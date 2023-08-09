@@ -12,9 +12,12 @@ type B = {
   paddingX?: PaddingSize
   paddingY?: PaddingSize
 }
-type Props = A | B
+type Props = React.PropsWithChildren<A | B>
 
-export const Box = styled.div<Props>`
+export const Box = styled((props: Props) => {
+  const { padding: _, paddingX: __, paddingY: ___, ...rest } = props
+  return <div {...rest} />
+})`
   ${({ padding = "M" }) => {
     if (padding === "L") return "padding: 2rem;"
     if (padding === "S") return "padding: 0.5rem;"
