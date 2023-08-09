@@ -1,3 +1,9 @@
+# Environment variables
+.env*
+
+# Storybook
+storybook-static
+
 # Logs
 logs
 *.log
