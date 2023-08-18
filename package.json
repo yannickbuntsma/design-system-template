@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "chromatic"
+    "chromatic": "chromatic",
+    "convert-tokens": "yarn ts-node --esm scripts/transform-figma-variables.ts"
   },
   "dependencies": {
     "modern-normalize": "^2.0.0",
@@ -39,9 +40,12 @@
     "eslint-plugin-storybook": "^0.6.13",
     "prettier": "^3.0.1",
     "storybook": "^7.2.2",
-    "typescript": "^5.0.2",
+    "style-dictionary": "^3.8.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
     "vite": "^4.4.5",
-    "vite-plugin-dts": "^3.5.1"
+    "vite-plugin-dts": "^3.5.1",
+    "zod": "^3.22.1"
   },
   "resolutions": {
     "styled-components": "^6"

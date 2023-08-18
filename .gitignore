@@ -4,6 +4,9 @@
 # Storybook
 storybook-static
 
+# Temp files
+temp/
+
 # Logs
 logs
 *.log

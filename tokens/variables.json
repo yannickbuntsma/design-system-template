@@ -1,0 +1,185 @@
+{
+  "version": "1.0.4",
+  "metadata": {},
+  "collections": [
+    {
+      "name": "Tokens",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "variables": [
+            {
+              "name": "Color tokens/Semantic/danger-light",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "Tokens",
+                "name": "Color tokens/Palette/red-light"
+              }
+            },
+            {
+              "name": "Color tokens/Semantic/danger-normal",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "Tokens",
+                "name": "Color tokens/Palette/red-normal"
+              }
+            },
+            {
+              "name": "Color tokens/Palette/red-normal",
+              "type": "color",
+              "isAlias": false,
+              "value": "#D76B6B"
+            },
+            {
+              "name": "Color tokens/Semantic/danger-dark",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "Tokens",
+                "name": "Color tokens/Palette/red-dark"
+              }
+            },
+            {
+              "name": "Color tokens/Palette/red-light",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FFECEC"
+            },
+            {
+              "name": "Color tokens/Palette/red-dark",
+              "type": "color",
+              "isAlias": false,
+              "value": "#8C0F0F"
+            },
+            {
+              "name": "Color tokens/Semantic/danger-normal",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "Tokens",
+                "name": "Color tokens/Palette/red-normal"
+              }
+            },
+            {
+              "name": "Color tokens/Palette/red-light",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FFECEC"
+            },
+            {
+              "name": "Color tokens/Palette/red-normal",
+              "type": "color",
+              "isAlias": false,
+              "value": "#D76B6B"
+            },
+            {
+              "name": "Color tokens/Semantic/danger-dark",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "Tokens",
+                "name": "Color tokens/Palette/red-dark"
+              }
+            },
+            {
+              "name": "Color tokens/Semantic/danger-light",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "Tokens",
+                "name": "Color tokens/Palette/red-light"
+              }
+            },
+            {
+              "name": "Color tokens/Palette/red-dark",
+              "type": "color",
+              "isAlias": false,
+              "value": "#8C0F0F"
+            },
+            {
+              "name": "Color tokens/Semantic/danger-light",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "Tokens",
+                "name": "Color tokens/Palette/red-light"
+              }
+            },
+            {
+              "name": "Color tokens/Palette/red-light",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FFECEC"
+            },
+            {
+              "name": "Color tokens/Semantic/danger-normal",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "Tokens",
+                "name": "Color tokens/Palette/red-normal"
+              }
+            },
+            {
+              "name": "Color tokens/Palette/red-normal",
+              "type": "color",
+              "isAlias": false,
+              "value": "#D76B6B"
+            },
+            {
+              "name": "Color tokens/Semantic/danger-dark",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "Tokens",
+                "name": "Color tokens/Palette/red-dark"
+              }
+            },
+            {
+              "name": "Color tokens/Palette/red-dark",
+              "type": "color",
+              "isAlias": false,
+              "value": "#8C0F0F"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Effects",
+      "modes": [
+        {
+          "name": "Style",
+          "variables": [
+            {
+              "name": "Drop shadow",
+              "type": "effect",
+              "isAlias": false,
+              "value": {
+                "effects": [
+                  {
+                    "type": "DROP_SHADOW",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.15
+                    },
+                    "offset": {
+                      "x": 0,
+                      "y": 2
+                    },
+                    "radius": 4,
+                    "spread": 0
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

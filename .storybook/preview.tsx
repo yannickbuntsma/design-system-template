@@ -2,6 +2,7 @@ import React from "react"
 import type { Preview } from "@storybook/react"
 import { withThemeFromJSXProvider } from "@storybook/addon-styling"
 import { GlobalStyle } from "../src/globalStyles"
+import "../src/styles/tokens.css"
 
 const preview: Preview = {
   parameters: {

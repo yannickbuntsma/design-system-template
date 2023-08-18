@@ -37,8 +37,8 @@ export const Alert = styled((props: Props) => (
 
       case "error":
         return css`
-          background-color: #fee2e2;
-          color: #7f1d1d;
+          background-color: var(--color-danger-light);
+          color: var(--color-danger-dark);
         `
     }
   }}
