@@ -5,10 +5,11 @@ import { Title } from "../components/typography/Title"
 import { Text } from "../components/typography/Text"
 
 const meta = {
+  title: "Components/Alert",
   component: Alert,
   argTypes: {
     variant: {
-      options: ["info", "warning", "success", "error"],
+      options: ["success", "error"],
       control: {
         type: "radio",
       },

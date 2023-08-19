@@ -15,6 +15,11 @@ const preview: Preview = {
         radio: /(variant|as)$/i,
       },
     },
+    options: {
+      storySort: {
+        order: ["Foundations", ["Typography"], "*"],
+      },
+    },
   },
 
   decorators: [

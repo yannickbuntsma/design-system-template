@@ -2,7 +2,7 @@ import styled, { css } from "styled-components"
 import { Box } from "./layout/Box"
 
 type Props = React.PropsWithChildren<{
-  variant?: "info" | "warning" | "success" | "error"
+  variant?: "success" | "error"
 }>
 
 export const Alert = styled((props: Props) => (
@@ -17,18 +17,6 @@ export const Alert = styled((props: Props) => (
   border-radius: 0.5rem;
   ${({ variant = "info" }) => {
     switch (variant) {
-      case "info":
-        return css`
-          background-color: #e0e7ff;
-          color: #312e81;
-        `
-
-      case "warning":
-        return css`
-          background-color: #fef3c7;
-          color: #78350f;
-        `
-
       case "success":
         return css`
           background-color: var(--color-success-100);
