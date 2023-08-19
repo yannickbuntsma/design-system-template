@@ -6,9 +6,13 @@ import { Text } from "../components/typography/Text"
 
 const meta = {
   component: Alert,
-  parameters: {
-    // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/react/configure/story-layout
-    layout: "centered",
+  argTypes: {
+    variant: {
+      options: ["info", "warning", "success", "error"],
+      control: {
+        type: "radio",
+      },
+    },
   },
 } satisfies Meta<typeof Alert>
 
@@ -22,7 +26,10 @@ export const Default: Story = {
     children: (
       <>
         <Title as="h2">This is an alert</Title>
-        <Text>It might convey some interesting information the user would like to know.</Text>
+        <Text>
+          It might convey some interesting information the user would like to
+          know.
+        </Text>
       </>
     ),
   },

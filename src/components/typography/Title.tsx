@@ -12,6 +12,7 @@ export const Title = styled((props: Props) => {
 
   return <Component {...rest} />
 })`
+  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: ${({ variant = "normal" }) => {
     if (variant === "huge") return "3rem"

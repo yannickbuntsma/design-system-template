@@ -9,136 +9,91 @@
           "name": "Mode 1",
           "variables": [
             {
-              "name": "Color tokens/Semantic/danger-light",
+              "name": "Color/Semantic/success-500",
               "type": "color",
               "isAlias": true,
               "value": {
                 "collection": "Tokens",
-                "name": "Color tokens/Palette/red-light"
+                "name": "Color/Palette/Green/green-500"
               }
             },
             {
-              "name": "Color tokens/Semantic/danger-normal",
+              "name": "Color/Semantic/success-900",
               "type": "color",
               "isAlias": true,
               "value": {
                 "collection": "Tokens",
-                "name": "Color tokens/Palette/red-normal"
+                "name": "Color/Palette/Green/green-900"
               }
             },
             {
-              "name": "Color tokens/Palette/red-normal",
+              "name": "Color/Palette/Green/green-100",
+              "type": "color",
+              "isAlias": false,
+              "value": "#E6F6F1"
+            },
+            {
+              "name": "Color/Palette/Green/green-500",
+              "type": "color",
+              "isAlias": false,
+              "value": "#00A372"
+            },
+            {
+              "name": "Color/Palette/Green/green-900",
+              "type": "color",
+              "isAlias": false,
+              "value": "#004430"
+            },
+            {
+              "name": "Color/Semantic/error-100",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "Tokens",
+                "name": "Color/Palette/Red/red-100"
+              }
+            },
+            {
+              "name": "Color/Semantic/success-100",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "Tokens",
+                "name": "Color/Palette/Green/green-100"
+              }
+            },
+            {
+              "name": "Color/Semantic/error-500",
+              "type": "color",
+              "isAlias": true,
+              "value": {
+                "collection": "Tokens",
+                "name": "Color/Palette/Red/red-500"
+              }
+            },
+            {
+              "name": "Color/Palette/Red/red-500",
               "type": "color",
               "isAlias": false,
               "value": "#D76B6B"
             },
             {
-              "name": "Color tokens/Semantic/danger-dark",
+              "name": "Color/Semantic/error-900",
               "type": "color",
               "isAlias": true,
               "value": {
                 "collection": "Tokens",
-                "name": "Color tokens/Palette/red-dark"
+                "name": "Color/Palette/Red/red-900"
               }
             },
             {
-              "name": "Color tokens/Palette/red-light",
+              "name": "Color/Palette/Red/red-100",
               "type": "color",
               "isAlias": false,
               "value": "#FFECEC"
             },
             {
-              "name": "Color tokens/Palette/red-dark",
-              "type": "color",
-              "isAlias": false,
-              "value": "#8C0F0F"
-            },
-            {
-              "name": "Color tokens/Semantic/danger-normal",
-              "type": "color",
-              "isAlias": true,
-              "value": {
-                "collection": "Tokens",
-                "name": "Color tokens/Palette/red-normal"
-              }
-            },
-            {
-              "name": "Color tokens/Palette/red-light",
-              "type": "color",
-              "isAlias": false,
-              "value": "#FFECEC"
-            },
-            {
-              "name": "Color tokens/Palette/red-normal",
-              "type": "color",
-              "isAlias": false,
-              "value": "#D76B6B"
-            },
-            {
-              "name": "Color tokens/Semantic/danger-dark",
-              "type": "color",
-              "isAlias": true,
-              "value": {
-                "collection": "Tokens",
-                "name": "Color tokens/Palette/red-dark"
-              }
-            },
-            {
-              "name": "Color tokens/Semantic/danger-light",
-              "type": "color",
-              "isAlias": true,
-              "value": {
-                "collection": "Tokens",
-                "name": "Color tokens/Palette/red-light"
-              }
-            },
-            {
-              "name": "Color tokens/Palette/red-dark",
-              "type": "color",
-              "isAlias": false,
-              "value": "#8C0F0F"
-            },
-            {
-              "name": "Color tokens/Semantic/danger-light",
-              "type": "color",
-              "isAlias": true,
-              "value": {
-                "collection": "Tokens",
-                "name": "Color tokens/Palette/red-light"
-              }
-            },
-            {
-              "name": "Color tokens/Palette/red-light",
-              "type": "color",
-              "isAlias": false,
-              "value": "#FFECEC"
-            },
-            {
-              "name": "Color tokens/Semantic/danger-normal",
-              "type": "color",
-              "isAlias": true,
-              "value": {
-                "collection": "Tokens",
-                "name": "Color tokens/Palette/red-normal"
-              }
-            },
-            {
-              "name": "Color tokens/Palette/red-normal",
-              "type": "color",
-              "isAlias": false,
-              "value": "#D76B6B"
-            },
-            {
-              "name": "Color tokens/Semantic/danger-dark",
-              "type": "color",
-              "isAlias": true,
-              "value": {
-                "collection": "Tokens",
-                "name": "Color tokens/Palette/red-dark"
-              }
-            },
-            {
-              "name": "Color tokens/Palette/red-dark",
+              "name": "Color/Palette/Red/red-900",
               "type": "color",
               "isAlias": false,
               "value": "#8C0F0F"

@@ -31,14 +31,14 @@ export const Alert = styled((props: Props) => (
 
       case "success":
         return css`
-          background-color: #d1fae5;
-          color: #064e3b;
+          background-color: var(--color-success-100);
+          color: var(--color-green-900);
         `
 
       case "error":
         return css`
-          background-color: var(--color-danger-light);
-          color: var(--color-danger-dark);
+          background-color: var(--color-error-100);
+          color: var(--color-error-900);
         `
     }
   }}

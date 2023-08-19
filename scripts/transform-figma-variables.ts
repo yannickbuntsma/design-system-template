@@ -112,7 +112,15 @@ const isAliasVariable = (v: unknown): v is AliasVariable => {
     valueMap[lastSectionOfName] = resolvedValue
   }
 
-  result = { color: valueMap }
+  /**
+   * Sort the tokens so related tokens group together
+   * and number values order in the same way.
+   */
+  const sortedValueMap: typeof valueMap = Object.entries(valueMap)
+    .sort()
+    .reduce((m, [k, v]) => ({ ...m, [k]: v }), {})
+
+  result = { color: sortedValueMap }
 
   const OUTPUT_PATH = "./temp/tokens.json"
   await fs.writeFile(

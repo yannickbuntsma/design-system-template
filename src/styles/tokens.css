@@ -1,13 +1,19 @@
 /**
  * Do not edit directly
- * Generated on Fri, 18 Aug 2023 15:59:52 GMT
+ * Generated on Fri, 18 Aug 2023 20:04:20 GMT
  */
 
 :root {
-  --color-danger-light: #ffecec;
-  --color-danger-normal: #d76b6b;
-  --color-red-normal: #d76b6b;
-  --color-danger-dark: #8c0f0f;
-  --color-red-light: #ffecec;
-  --color-red-dark: #8c0f0f;
+  --color-error-100: #ffecec;
+  --color-error-500: #d76b6b;
+  --color-error-900: #8c0f0f;
+  --color-green-100: #e6f6f1;
+  --color-green-500: #00a372;
+  --color-green-900: #004430;
+  --color-red-100: #ffecec;
+  --color-red-500: #d76b6b;
+  --color-red-900: #8c0f0f;
+  --color-success-100: #e6f6f1;
+  --color-success-500: #00a372;
+  --color-success-900: #004430;
 }

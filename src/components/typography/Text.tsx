@@ -12,6 +12,7 @@ export const Text = styled((props: Props) => {
 
   return <Component {...rest} />
 })`
+  font-family: "Lato", sans-serif;
   font-size: ${({ variant = "body" }) => {
     if (variant === "caption") {
       return "0.75rem"
